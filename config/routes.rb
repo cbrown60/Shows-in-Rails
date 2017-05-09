@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
 
   scope path: 'api' do 
-    resources :animals 
+    resources :shows
   end
 
     # The priority is based upon order of creation: first created -> highest priority.
