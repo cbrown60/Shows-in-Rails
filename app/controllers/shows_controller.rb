@@ -32,4 +32,9 @@ class ShowsController < ApplicationController
     end
   end
 
+  def show
+    show = Show.find(params[:id])
+    render json: show 
+  end
+
 end
